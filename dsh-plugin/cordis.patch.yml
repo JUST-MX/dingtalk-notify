@@ -1,0 +1,6 @@
+# Inserts the DingTalk notifier. The Host half listens on session events and
+# shells out to ~/.claude/notify-dingtalk.py, which owns the credentials.
+- insert:
+    - id: dingtalk-notify
+      name: '@local/dsh-plugin-dingtalk-notify'
+      config: {}

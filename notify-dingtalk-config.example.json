@@ -1,0 +1,25 @@
+{
+  "mcp_url": "",
+  "mcp_robot_code": "",
+  "mcp_user_ids": [],
+  "mcp_open_conversation_id": "",
+  "app_key": "${DINGTALK_APP_KEY}",
+  "app_secret": "${DINGTALK_APP_SECRET}",
+  "robot_code": "${DINGTALK_ROBOT_CODE}",
+  "user_id": "",
+  "webhook_url": "",
+  "webhook_secret": "",
+  "min_duration_seconds": 0,
+  "min_interval_seconds": 10,
+  "include_last_reply": true,
+  "include_question": true,
+  "max_question_chars": 120,
+  "max_reply_chars": 900,
+  "max_reply_lines": 20,
+  "include_git_branch": true,
+  "include_timestamp": true,
+  "max_message_bytes": 6000,
+  "notify_on": [
+    "permission_prompt"
+  ]
+}

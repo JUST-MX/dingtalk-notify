@@ -1,0 +1,16 @@
+# 凭据与运行时产物
+notify-dingtalk-config.json
+notify-dingtalk-token.json
+notify-dingtalk.log
+notify-state.json
+
+# 本机 Claude Code 权限白名单（含个人路径）
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db

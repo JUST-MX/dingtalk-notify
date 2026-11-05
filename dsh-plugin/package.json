@@ -1,0 +1,20 @@
+{
+  "name": "@local/dsh-plugin-dingtalk-notify",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Push a DingTalk message when a DeepSeek Harness turn finishes or a tool approval is waiting.",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
